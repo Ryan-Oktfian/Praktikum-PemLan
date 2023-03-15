@@ -7,10 +7,33 @@ kedalam kode program, serta tampilkan ke layar nilai dari properties dari entita
 kategori ada 5 buku) 
 class buku, kategori ada teknologi, dll. */
 
-class buku{
+public class book{
+    String judul;
+    String kategori;
+    String penulis;
+    String tahunTerbit;
     
-}
+    public void judulBuku(String judulBuku){
+        this.judul = judulBuku;
+    }
+    public void kategoriBuku(String kategoriBuku){
+        this.kategori = kategoriBuku;
+    }
+    public void penulisBuku(String penulisBuku){
+        this.penulis = penulisBuku;
+    }
+    public void tahunTerbitBuku(String tahunTerbitBuku){
+        this.tahunTerbit = tahunTerbitBuku;
+    }
 
-public class book {
-    
+    public void display() {
+       
+        System.out.println("Kategori buku   : " +kategori);
+        System.out.println("Judul buku      : " +judul);
+        System.out.println("Penulis buku    : " +penulis);
+        System.out.println("Tahun terbit    : " +tahunTerbit);
+        System.out.println();
+    }
+
+
 }
