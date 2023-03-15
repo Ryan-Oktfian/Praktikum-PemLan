@@ -65,6 +65,16 @@ public class mainBook {
         }
         System.out.println();
 
+        book sej = new book();
+        for (int row = 0; row < sejarah.length; row++) {
+            sej.judulBuku(sejarah[row][1]);
+            sej.kategoriBuku(sejarah[row][0]);
+            sej.penulisBuku(sejarah[row][2]);
+            sej.tahunTerbitBuku(sejarah[row][3]);
+            sej.display();
+        }
+        System.out.println();
+
         book agam = new book();
         for (int row = 0; row < agama.length; row++) {
             agam.judulBuku(agama[row][1]);
