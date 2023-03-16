@@ -47,70 +47,70 @@ public class mainBook {
                             
         book tekno = new book();
         for (int row = 0; row < teknologi.length; row++) {
-            tekno.judulBuku(teknologi[row][1]);
-            tekno.kategoriBuku(teknologi[row][0]);
-            tekno.penulisBuku(teknologi[row][2]);
-            tekno.tahunTerbitBuku(teknologi[row][3]);
+            tekno.setJudulBuku(teknologi[row][1]);
+            tekno.setKategoriBuku(teknologi[row][0]);
+            tekno.setPenulisBuku(teknologi[row][2]);
+            tekno.setTahunTerbitBuku(teknologi[row][3]);
             tekno.display();
         }
         System.out.println();
         
         book filsaf = new book();
         for (int row = 0; row < filsafat.length; row++) {
-            filsaf.judulBuku(filsafat[row][1]);
-            filsaf.kategoriBuku(filsafat[row][0]);
-            filsaf.penulisBuku(filsafat[row][2]);
-            filsaf.tahunTerbitBuku(filsafat[row][3]);
+            filsaf.setJudulBuku(filsafat[row][1]);
+            filsaf.setKategoriBuku(filsafat[row][0]);
+            filsaf.setPenulisBuku(filsafat[row][2]);
+            filsaf.setTahunTerbitBuku(filsafat[row][3]);
             filsaf.display();
         }
         System.out.println();
 
         book sej = new book();
         for (int row = 0; row < sejarah.length; row++) {
-            sej.judulBuku(sejarah[row][1]);
-            sej.kategoriBuku(sejarah[row][0]);
-            sej.penulisBuku(sejarah[row][2]);
-            sej.tahunTerbitBuku(sejarah[row][3]);
+            sej.setJudulBuku(sejarah[row][1]);
+            sej.setKategoriBuku(sejarah[row][0]);
+            sej.setPenulisBuku(sejarah[row][2]);
+            sej.setTahunTerbitBuku(sejarah[row][3]);
             sej.display();
         }
         System.out.println();
 
         book agam = new book();
         for (int row = 0; row < agama.length; row++) {
-            agam.judulBuku(agama[row][1]);
-            agam.kategoriBuku(agama[row][0]);
-            agam.penulisBuku(agama[row][2]);
-            agam.tahunTerbitBuku(agama[row][3]);
+            agam.setJudulBuku(agama[row][1]);
+            agam.setKategoriBuku(agama[row][0]);
+            agam.setPenulisBuku(agama[row][2]);
+            agam.setTahunTerbitBuku(agama[row][3]);
             agam.display();
         }
         System.out.println();
         
         book psiko = new book();
         for (int row = 0; row < psikologi.length; row++) {
-            psiko.judulBuku(psikologi[row][1]);
-            psiko.kategoriBuku(psikologi[row][0]);
-            psiko.penulisBuku(psikologi[row][2]);
-            psiko.tahunTerbitBuku(psikologi[row][3]);
+            psiko.setJudulBuku(psikologi[row][1]);
+            psiko.setKategoriBuku(psikologi[row][0]);
+            psiko.setPenulisBuku(psikologi[row][2]);
+            psiko.setTahunTerbitBuku(psikologi[row][3]);
             psiko.display();
         }
         System.out.println();
         
         book poli = new book();
         for (int row = 0; row < politik.length; row++) {
-            poli.judulBuku(politik[row][1]);
-            poli.kategoriBuku(politik[row][0]);
-            poli.penulisBuku(politik[row][2]);
-            poli.tahunTerbitBuku(politik[row][3]);
+            poli.setJudulBuku(politik[row][1]);
+            poli.setKategoriBuku(politik[row][0]);
+            poli.setPenulisBuku(politik[row][2]);
+            poli.setTahunTerbitBuku(politik[row][3]);
             poli.display();
         }
         System.out.println();
 
         book fiks = new book();
         for (int row = 0; row < fiksi.length; row++) {
-            fiks.judulBuku(fiksi[row][1]);
-            fiks.kategoriBuku(fiksi[row][0]);
-            fiks.penulisBuku(fiksi[row][2]);
-            fiks.tahunTerbitBuku(fiksi[row][3]);
+            fiks.setJudulBuku(fiksi[row][1]);
+            fiks.setKategoriBuku(fiksi[row][0]);
+            fiks.setPenulisBuku(fiksi[row][2]);
+            fiks.setTahunTerbitBuku(fiksi[row][3]);
             fiks.display();
         }
         System.out.println();

@@ -13,16 +13,16 @@ public class book{
     String penulis;
     String tahunTerbit;
     
-    public void judulBuku(String judulBuku){
+    public void setJudulBuku(String judulBuku){
         this.judul = judulBuku;
     }
-    public void kategoriBuku(String kategoriBuku){
+    public void setKategoriBuku(String kategoriBuku){
         this.kategori = kategoriBuku;
     }
-    public void penulisBuku(String penulisBuku){
+    public void setPenulisBuku(String penulisBuku){
         this.penulis = penulisBuku;
     }
-    public void tahunTerbitBuku(String tahunTerbitBuku){
+    public void setTahunTerbitBuku(String tahunTerbitBuku){
         this.tahunTerbit = tahunTerbitBuku;
     }
 
