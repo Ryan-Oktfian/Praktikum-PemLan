@@ -44,75 +44,124 @@ public class mainBook {
                             {"Fiksi", "Prosa Fiksi dan Drama", "Saputra, N dkk.", "2021"},
                             {"Fiksi", "Jalan Cinta Para Pejuang", "Salim A.", "2009"},
                             {"Fiksi", "Menulis Fiksi Itu Seksi", "Endah, A", "2013"}};
-                            
-        book tekno = new book();
+        
+        
         for (int row = 0; row < teknologi.length; row++) {
-            tekno.setJudulBuku(teknologi[row][1]);
-            tekno.setKategoriBuku(teknologi[row][0]);
-            tekno.setPenulisBuku(teknologi[row][2]);
-            tekno.setTahunTerbitBuku(teknologi[row][3]);
-            tekno.display();
+            book tekno = new book(teknologi[row][1], teknologi[row][0], teknologi[row][2], teknologi[row][3]);
+            tekno.display();  
         }
         System.out.println();
         
-        book filsaf = new book();
+        
         for (int row = 0; row < filsafat.length; row++) {
-            filsaf.setJudulBuku(filsafat[row][1]);
-            filsaf.setKategoriBuku(filsafat[row][0]);
-            filsaf.setPenulisBuku(filsafat[row][2]);
-            filsaf.setTahunTerbitBuku(filsafat[row][3]);
+            book filsaf = new book(filsafat[row][1], filsafat[row][0], filsafat[row][2], filsafat[row][3]);
             filsaf.display();
         }
         System.out.println();
 
-        book sej = new book();
+        
         for (int row = 0; row < sejarah.length; row++) {
-            sej.setJudulBuku(sejarah[row][1]);
-            sej.setKategoriBuku(sejarah[row][0]);
-            sej.setPenulisBuku(sejarah[row][2]);
-            sej.setTahunTerbitBuku(sejarah[row][3]);
+            book sej = new book(sejarah[row][1],  sejarah[row][0], sejarah[row][2], sejarah[row][3]);
             sej.display();
         }
         System.out.println();
 
-        book agam = new book();
+        
         for (int row = 0; row < agama.length; row++) {
-            agam.setJudulBuku(agama[row][1]);
-            agam.setKategoriBuku(agama[row][0]);
-            agam.setPenulisBuku(agama[row][2]);
-            agam.setTahunTerbitBuku(agama[row][3]);
+            book agam = new book(agama[row][1], agama[row][0], agama[row][2], agama[row][3]);
             agam.display();
         }
         System.out.println();
+
         
-        book psiko = new book();
         for (int row = 0; row < psikologi.length; row++) {
-            psiko.setJudulBuku(psikologi[row][1]);
-            psiko.setKategoriBuku(psikologi[row][0]);
-            psiko.setPenulisBuku(psikologi[row][2]);
-            psiko.setTahunTerbitBuku(psikologi[row][3]);
+            book psiko = new book(psikologi[row][1], psikologi[row][0], psikologi[row][2], psikologi[row][3]);
             psiko.display();
         }
         System.out.println();
         
-        book poli = new book();
+        
         for (int row = 0; row < politik.length; row++) {
-            poli.setJudulBuku(politik[row][1]);
-            poli.setKategoriBuku(politik[row][0]);
-            poli.setPenulisBuku(politik[row][2]);
-            poli.setTahunTerbitBuku(politik[row][3]);
+            book poli = new book(politik[row][1], politik[row][0], politik[row][2], politik[row][3]);
             poli.display();
         }
         System.out.println();
 
-        book fiks = new book();
+        
         for (int row = 0; row < fiksi.length; row++) {
-            fiks.setJudulBuku(fiksi[row][1]);
-            fiks.setKategoriBuku(fiksi[row][0]);
-            fiks.setPenulisBuku(fiksi[row][2]);
-            fiks.setTahunTerbitBuku(fiksi[row][3]);
+            book fiks = new book(fiksi[row][1], fiksi[row][0], fiksi[row][2], fiksi[row][3]);
             fiks.display();
         }
         System.out.println();
+
+        // book tekno = new book();
+        // for (int row = 0; row < teknologi.length; row++) {
+        //     tekno.setJudulBuku(teknologi[row][1]);
+        //     tekno.setKategoriBuku(teknologi[row][0]);
+        //     tekno.setPenulisBuku(teknologi[row][2]);
+        //     tekno.setTahunTerbitBuku(teknologi[row][3]);
+        //     tekno.display();
+        // }
+        // System.out.println();
+        
+        // book filsaf = new book();
+        // for (int row = 0; row < filsafat.length; row++) {
+        //     filsaf.setJudulBuku(filsafat[row][1]);
+        //     filsaf.setKategoriBuku(filsafat[row][0]);
+        //     filsaf.setPenulisBuku(filsafat[row][2]);
+        //     filsaf.setTahunTerbitBuku(filsafat[row][3]);
+        //     filsaf.display();
+        // }
+        // System.out.println();
+
+        // book sej = new book();
+        // for (int row = 0; row < sejarah.length; row++) {
+        //     sej.setJudulBuku(sejarah[row][1]);
+        //     sej.setKategoriBuku(sejarah[row][0]);
+        //     sej.setPenulisBuku(sejarah[row][2]);
+        //     sej.setTahunTerbitBuku(sejarah[row][3]);
+        //     sej.display();
+        // }
+        // System.out.println();
+
+        // book agam = new book();
+        // for (int row = 0; row < agama.length; row++) {
+        //     agam.setJudulBuku(agama[row][1]);
+        //     agam.setKategoriBuku(agama[row][0]);
+        //     agam.setPenulisBuku(agama[row][2]);
+        //     agam.setTahunTerbitBuku(agama[row][3]);
+        //     agam.display();
+        // }
+        // System.out.println();
+        
+        // book psiko = new book();
+        // for (int row = 0; row < psikologi.length; row++) {
+        //     psiko.setJudulBuku(psikologi[row][1]);
+        //     psiko.setKategoriBuku(psikologi[row][0]);
+        //     psiko.setPenulisBuku(psikologi[row][2]);
+        //     psiko.setTahunTerbitBuku(psikologi[row][3]);
+        //     psiko.display();
+        // }
+        // System.out.println();
+        
+        // book poli = new book();
+        // for (int row = 0; row < politik.length; row++) {
+        //     poli.setJudulBuku(politik[row][1]);
+        //     poli.setKategoriBuku(politik[row][0]);
+        //     poli.setPenulisBuku(politik[row][2]);
+        //     poli.setTahunTerbitBuku(politik[row][3]);
+        //     poli.display();
+        // }
+        // System.out.println();
+
+        // book fiks = new book();
+        // for (int row = 0; row < fiksi.length; row++) {
+        //     fiks.setJudulBuku(fiksi[row][1]);
+        //     fiks.setKategoriBuku(fiksi[row][0]);
+        //     fiks.setPenulisBuku(fiksi[row][2]);
+        //     fiks.setTahunTerbitBuku(fiksi[row][3]);
+        //     fiks.display();
+        // }
+        // System.out.println();
     }
 }    

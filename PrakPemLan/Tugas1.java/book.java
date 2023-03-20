@@ -12,19 +12,27 @@ public class book{
     String kategori;
     String penulis;
     String tahunTerbit;
-    
-    public void setJudulBuku(String judulBuku){
-        this.judul = judulBuku;
-    }
-    public void setKategoriBuku(String kategoriBuku){
-        this.kategori = kategoriBuku;
-    }
-    public void setPenulisBuku(String penulisBuku){
+    String sinopsis;
+
+    public book(String JudulBuku, String KategoriBuku, String penulisBuku, String TahunTerbitBuku){
+        this.judul = JudulBuku;
+        this.kategori = KategoriBuku;
         this.penulis = penulisBuku;
+        this.tahunTerbit = TahunTerbitBuku;
     }
-    public void setTahunTerbitBuku(String tahunTerbitBuku){
-        this.tahunTerbit = tahunTerbitBuku;
-    }
+
+    // public void setJudulBuku(String judulBuku){
+    //     this.judul = judulBuku;
+    // }
+    // public void setKategoriBuku(String kategoriBuku){
+    //     this.kategori = kategoriBuku;
+    // }
+    // public void setPenulisBuku(String penulisBuku){
+    //     this.penulis = penulisBuku;
+    // }
+    // public void setTahunTerbitBuku(String tahunTerbitBuku){
+    //     this.tahunTerbit = tahunTerbitBuku;
+    // }
 
     public void display() {
        
