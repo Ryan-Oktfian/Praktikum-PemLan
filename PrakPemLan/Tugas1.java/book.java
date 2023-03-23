@@ -6,33 +6,27 @@ Dari studi kasus diatas, tentukan entitas-entitas yang terlibat beserta properti
 kedalam kode program, serta tampilkan ke layar nilai dari properties dari entitas tersebut. (Minimal tiap
 kategori ada 5 buku) 
 class buku, kategori ada teknologi, dll. */
-
 public class book{
     String judul;
     String kategori;
     String penulis;
     String tahunTerbit;
-    String sinopsis;
 
-    public book(String JudulBuku, String KategoriBuku, String penulisBuku, String TahunTerbitBuku){
-        this.judul = JudulBuku;
-        this.kategori = KategoriBuku;
-        this.penulis = penulisBuku;
-        this.tahunTerbit = TahunTerbitBuku;
+    public void setJudulBuku(String judulBuku){
+        this.judul = judulBuku;
     }
-
-    // public void setJudulBuku(String judulBuku){
-    //     this.judul = judulBuku;
-    // }
-    // public void setKategoriBuku(String kategoriBuku){
-    //     this.kategori = kategoriBuku;
-    // }
-    // public void setPenulisBuku(String penulisBuku){
-    //     this.penulis = penulisBuku;
-    // }
-    // public void setTahunTerbitBuku(String tahunTerbitBuku){
-    //     this.tahunTerbit = tahunTerbitBuku;
-    // }
+ 
+    public void setKategoriBuku(String kategoriBuku){
+        this.kategori = kategoriBuku;
+    }
+    
+    public void setPenulisBuku(String penulisBuku){
+        this.penulis = penulisBuku;
+    }
+    
+    public void setTahunTerbitBuku(String tahunTerbitBuku){
+        this.tahunTerbit = tahunTerbitBuku;
+    }
 
     public void display() {
        
@@ -42,6 +36,4 @@ public class book{
         System.out.println("Tahun terbit    : " +tahunTerbit);
         System.out.println();
     }
-
-
 }
