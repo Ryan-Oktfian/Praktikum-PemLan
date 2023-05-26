@@ -1,4 +1,4 @@
-package tugas3;
+package Tugas3;
 
 class Hero {
     private String nama;
